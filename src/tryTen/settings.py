@@ -16,8 +16,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='diegoavendano1998a@gmail.com'
-EMAIL_HOST_PASSWORD='th4t$ Life'
+EMAIL_HOST_USER='********@gmail.com'
+EMAIL_HOST_PASSWORD='************'
 EMAIL_PORT='587'
 EMAIL_USE_TLS=True
 
@@ -26,7 +26,7 @@ EMAIL_USE_TLS=True
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l!x-9-l9@+79+nqkr^9j5#5r65rko^e5bx2!8yykayclo97x50'
+SECRET_KEY = '*********************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -193,8 +193,8 @@ ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION = True
 # stripe stuff
 
 # test keys
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51IzsaqKC0PkI7UQYkP6CwyFLAhh3P13LI6VrGZNxnKTHgSEeuJh0WLDTBlk2MLH2dAZlFGVYnWcIxQx47VGj9K3R008tRsnca0'
-STRIPE_SECRET_KEY = 'sk_test_51IzsaqKC0PkI7UQYWP2fRcdC5NvzomSYt9ckcYciyzvWplFgQlIHZsZW0CmURrxMBPj7jyARmbJ92oSi4YJEvfRF00OZvLuQdJ'
+STRIPE_PUBLISHABLE_KEY = '*****'
+STRIPE_SECRET_KEY = '******'
 
 # live keys
 #STRIPE_PUBLISHABLE_KEY = 'YOUR STRIPE LIVE PUB KEY'
