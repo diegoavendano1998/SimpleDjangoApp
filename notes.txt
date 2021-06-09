@@ -1,0 +1,35 @@
+** Django **
+https://www.djangoproject.com/
+** Crispy **
+https://django-crispy-forms.readthedocs.io/en/latest/index.html
+** Django AllAuth **
+https://django-allauth.readthedocs.io/en/latest/installation.html
+** Django AllAuth Templates **
+https://github.com/pennersr/django-allauth/blob/master/allauth/templates/account
+** Django Signals **
+https://docs.djangoproject.com/en/3.2/topics/signals/
+** Stripe **
+https://dashboard.stripe.com/test/apikeys
+    roheh77060@pidhoes.com 
+
+
+
+
+
+
+
+Para crear un nuevo proyevto de admin
+    django-admin startproject tryDjango
+Para iniciar un nuevo proyecto Django
+    python manage.py startapp profiles
+Para crear un usuario en proyecto django-admin (ejecutar la primera vez que se crea el proyecto)
+    python manage.py createsuperuser
+Para aplicar los cambios en la base de datos (db.sqlite3)
+    python manage.py makemigrations
+    python manage.py migrate 
+Para ejecutar el proyecto (admin y profiles)
+    python manage.py runserver
+Para actualizar los directorios estaticos
+    python manage.py collectstatic
+Para crear la app contact
+    python manage.py startapp contact
